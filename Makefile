@@ -5,10 +5,10 @@ SHELL := /bin/bash
 .DELETE_ON_ERROR:
 .SUFFIXES:
 
-GIT_REPO ?= https://github.com/cnb-jenkins/sample-go-app
-TAG ?= samj1912/sample-go-app
+GIT_REPO ?= https://github.com/cnb-jenkins/another-go-app
+TAG ?= samj1912/another-go-app
 GIT_REVISION ?= $(shell git rev-parse HEAD)
-APP_NAME ?= sample-go-app
+APP_NAME ?= another-go-app
 CLUSTER_BUILDER ?= tiny-cluster-builder
 
 .PHONY: unit-test
